@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: ""
+  favicon: "figures/viserdac-logo.png"
+  
+  repo-url: https://github.com/vsu-viserdac/data-viz-series
+  site-url: https://vsu-viserdac.github.io/data-viz-series/
+  
+  sidebar:
+    style: docked
+    pinned: true
+    search: true
+    logo: "figures/viserdac-logo.png"
+    tools:
+      - icon: facebook
+        href: https://www.facebook.com/viserdac/
+      - icon: globe
+        href: https://viserdac.vsu.edu.ph/
+      - icon: github
+        href: https://github.com/vsu-viserdac/impact-assessment
+    
+    contents:
+      - href: "index.qmd"
+        text: "**Home**"
+      - section: "**Training sessions**"
+        contents:
+          - href: ""
+            text: "Getting started with R"
+          - href: ""
+            text: "Understanding the grammar of graphics 1"
+          - href: ""
+            text: "Understanding the grammar of graphics 2"
+          - href: ""
+            text: "Building publishable plot"
+      
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, dark-style.scss]
+    mainfont: "Arial"
+    code-copy: true
+    code-overflow: wrap
+    toc: false
+
+freeze: auto
+editor: visual

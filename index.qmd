@@ -1,0 +1,5 @@
+---
+title: ""
+---
+
+![](figures/r-training-series-fb-post.png){fig-align="right"}
