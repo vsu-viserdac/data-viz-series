@@ -4,4 +4,25 @@ title: ""
 
 ![](figures/data-viz-home.png){fig-align="right"}
 
-<iframe src="https://drive.google.com/file/d/1zxc8zznjodqhfBA6wxoQbEAKzBPNAaI6/preview" width="100%" height="480" allow="autoplay"></iframe>
+```{=html}
+<style>
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+</style>
+```
+::: {.responsive-video}
+<iframe src="https://drive.google.com/file/d/1zxc8zznjodqhfBA6wxoQbEAKzBPNAaI6/preview" allow="autoplay"></iframe>
+:::
