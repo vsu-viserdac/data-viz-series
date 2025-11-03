@@ -28,7 +28,7 @@ website:
         text: "**Home**"
       - section: "**Training sessions**"
         contents:
-          - href: ""
+          - href: "01-getting-started-R.qmd"
             text: "Getting started with R"
           - href: ""
             text: "Understanding the grammar of graphics 1"

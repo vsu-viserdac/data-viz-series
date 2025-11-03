@@ -1,0 +1,53 @@
+---
+title: ""
+---
+
+![](figures/getting-started-with-R.png)
+
+1.  R objects
+2.  R packages
+3.  Reading data in R
+4.  Basic data wrangling
+
+<a href="https://agec211-stat-methods.github.io/agec211-lecture/module1-intro-r" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe width="100%" height="100%" src="https://agec211-stat-methods.github.io/agec211-lecture/module1-intro-r" frameborder="0" allowfullscreen style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
+
+:::: callout-tip
+## Presentation keyboard shortcuts
+
+::: text-line-space
+<ul>
+
+<li>Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides</li>
+
+<li>Use <kbd>F</kbd> to toggle full screen</li>
+
+<li>Use <kbd>O</kbd> to view an overview of all slides</li>
+
+<li>Use <kbd>?</kbd> to see a list of other shortcuts</li>
+
+</ul>
+:::
+::::
+
+<br>
+
+## Exercises
+
+1.  Install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/download/rstudio-desktop/) on your computer.
+
+2.  Download the entire folder `00-module-intro-r` from the [Google Drive link](https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing). For the meantime, keep the folder in your computer and wait for further instructions during the class.
+
+3.  Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.
+
+```{r}
+#| eval: false
+
+## install required packages
+install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
+```
