@@ -21,7 +21,7 @@
     "href": "01-getting-started-R.html",
     "title": "",
     "section": "",
-    "text": "View slides in new window",
+    "text": "Topic outline:\nView slides in new window",
     "crumbs": [
       "**Training sessions**",
       "Getting started with R"
@@ -32,7 +32,7 @@
     "href": "01-getting-started-R.html#exercises",
     "title": "",
     "section": "Exercises",
-    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 00-module-intro-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))",
+    "text": "Exercises\n\nInstall R and RStudio on your computer.\nDownload the entire folder 01-getting-started-r from the Google Drive link. For the meantime, keep the folder in your computer and wait for further instructions during the class.\nBefore the training will start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.\n\n\n## install required packages\ninstall.packages(c(\"janitor\", \"readxl\", \"haven\", \"tidyverse\", \"skimr\"))",
     "crumbs": [
       "**Training sessions**",
       "Getting started with R"

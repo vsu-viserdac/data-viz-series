@@ -4,6 +4,9 @@ title: ""
 
 ![](figures/getting-started-with-R.png)
 
+
+**Topic outline:**
+
 1.  R objects
 2.  R packages
 3.  Reading data in R
@@ -41,9 +44,9 @@ title: ""
 
 1.  Install [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/download/rstudio-desktop/) on your computer.
 
-2.  Download the entire folder `00-module-intro-r` from the [Google Drive link](https://drive.google.com/drive/folders/10EwKKO1SxHdZSWWO1ko2WUFIOIRZM0HU?usp=sharing). For the meantime, keep the folder in your computer and wait for further instructions during the class.
+2.  Download the entire folder `01-getting-started-r` from the [Google Drive link](https://drive.google.com/drive/folders/19imAnNsYZEsIvJerA_C3OFGS3hIynMtc?usp=sharing). For the meantime, keep the folder in your computer and wait for further instructions during the class.
 
-3.  Before the class start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.
+3.  Before the training will start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.
 
 ```{r}
 #| eval: false
