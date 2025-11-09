@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vsu-viserdac.github.io/data-viz-series/index.html</loc>
-    <lastmod>2025-11-03T09:15:32.225Z</lastmod>
+    <lastmod>2025-11-09T07:49:10.708Z</lastmod>
   </url>
   <url>
     <loc>https://vsu-viserdac.github.io/data-viz-series/about.html</loc>
@@ -10,6 +10,10 @@
   </url>
   <url>
     <loc>https://vsu-viserdac.github.io/data-viz-series/01-getting-started-R.html</loc>
-    <lastmod>2025-11-08T09:27:35.019Z</lastmod>
+    <lastmod>2025-11-09T07:25:04.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://vsu-viserdac.github.io/data-viz-series/02-ggplot-1.html</loc>
+    <lastmod>2025-11-09T12:07:32.410Z</lastmod>
   </url>
 </urlset>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>getting-started-r</title>
+<title>ggplot-1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,8 +29,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./02-ggplot-1.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./01-getting-started-R.html" rel="prev">
 <link href="./figures/viserdac-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -283,7 +247,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-getting-started-R.html"><strong>Training sessions</strong></a></li><li class="breadcrumb-item"><a href="./01-getting-started-R.html">Getting started with R</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-getting-started-R.html"><strong>Training sessions</strong></a></li><li class="breadcrumb-item"><a href="./02-ggplot-1.html">Understanding the grammar of graphics 1</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -331,13 +295,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-getting-started-R.html" class="sidebar-item-text sidebar-link active">
+  <a href="./01-getting-started-R.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Getting started with R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-ggplot-1.html" class="sidebar-item-text sidebar-link">
+  <a href="./02-ggplot-1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Understanding the grammar of graphics 1</span></a>
   </div>
 </li>
@@ -356,13 +320,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-getting-started-R.html"><strong>Training sessions</strong></a></li><li class="breadcrumb-item"><a href="./01-getting-started-R.html">Getting started with R</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-getting-started-R.html"><strong>Training sessions</strong></a></li><li class="breadcrumb-item"><a href="./02-ggplot-1.html">Understanding the grammar of graphics 1</a></li></ol></nav></header>
 
 
 
 
 
-<p><img src="figures/getting-started-with-R.png" class="img-fluid"></p>
+<p><img src="figures/grammar-graphics-1.png" class="img-fluid"></p>
 <p><strong>Topic outline:</strong></p>
 <ol type="1">
 <li>R objects</li>
@@ -403,21 +367,8 @@ Use <kbd>?</kbd> to see a list of other shortcuts
 </div>
 </div>
 </div>
-<p><br></p>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<ol type="1">
-<li><p>Install <a href="https://cran.r-project.org/bin/windows/base/">R</a> and <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> on your computer.</p></li>
-<li><p>Download the entire folder <code>01-getting-started-r</code> from the <a href="https://drive.google.com/drive/folders/19imAnNsYZEsIvJerA_C3OFGS3hIynMtc?usp=sharing">Google Drive link</a>. For the meantime, keep the folder in your computer and wait for further instructions during the class.</p></li>
-<li><p>Before the training will start, open the RStudio and paste the following code in the console to install the required packages. Just click the clipboard icon to copy the code.</p></li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="do">## install required packages</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"janitor"</span>, <span class="st">"readxl"</span>, <span class="st">"haven"</span>, <span class="st">"tidyverse"</span>, <span class="st">"skimr"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -834,14 +785,11 @@ Use <kbd>?</kbd> to see a list of other shortcuts
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="**Home**">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><strong>Home</strong></span>
+      <a href="./01-getting-started-R.html" class="pagination-link" aria-label="Getting started with R">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Getting started with R</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./02-ggplot-1.html" class="pagination-link" aria-label="Understanding the grammar of graphics 1">
-        <span class="nav-page-text">Understanding the grammar of graphics 1</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

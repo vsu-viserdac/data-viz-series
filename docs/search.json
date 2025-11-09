@@ -37,5 +37,16 @@
       "**Training sessions**",
       "Getting started with R"
     ]
+  },
+  {
+    "objectID": "02-ggplot-1.html",
+    "href": "02-ggplot-1.html",
+    "title": "",
+    "section": "",
+    "text": "Topic outline:\n\nR objects\nR packages\nReading data in R\nBasic data wrangling\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "**Training sessions**",
+      "Understanding the grammar of graphics 1"
+    ]
   }
 ]
