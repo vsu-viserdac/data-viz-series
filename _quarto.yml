@@ -31,9 +31,7 @@ website:
           - href: "01-getting-started-R.qmd"
             text: "Getting started with R"
           - href: "02-ggplot-1.qmd"
-            text: "Understanding the grammar of graphics 1"
-          - href: ""
-            text: "Understanding the grammar of graphics 2"
+            text: "Understanding the grammar of graphics"
           - href: ""
             text: "Building publishable plot"
       

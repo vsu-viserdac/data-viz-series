@@ -1,20 +1,14 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "data-viz-site",
+    "objectID": "02-ggplot-1.html",
+    "href": "02-ggplot-1.html",
+    "title": "",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "Topic outline:\n\nThe grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
     "crumbs": [
-      "**Home**"
+      "**Training sessions**",
+      "Understanding the grammar of graphics"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "01-getting-started-R.html",
@@ -39,14 +33,10 @@
     ]
   },
   {
-    "objectID": "02-ggplot-1.html",
-    "href": "02-ggplot-1.html",
-    "title": "",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Topic outline:\n\nR objects\nR packages\nReading data in R\nBasic data wrangling\n\nView slides in new window\n\n\n\n\n\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
-    "crumbs": [
-      "**Training sessions**",
-      "Understanding the grammar of graphics 1"
-    ]
+    "text": "About this site"
   }
 ]
