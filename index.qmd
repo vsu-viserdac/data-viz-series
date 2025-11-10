@@ -23,6 +23,9 @@ title: ""
 }
 </style>
 ```
-::: {.responsive-video}
-<iframe src="https://drive.google.com/file/d/1zxc8zznjodqhfBA6wxoQbEAKzBPNAaI6/preview" allow="autoplay"></iframe>
+
+::: responsive-video
+<iframe src="https://drive.google.com/file/d/1zxc8zznjodqhfBA6wxoQbEAKzBPNAaI6/preview" allow="autoplay">
+
+</iframe>
 :::
