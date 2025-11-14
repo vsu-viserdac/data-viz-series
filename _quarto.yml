@@ -37,7 +37,7 @@ website:
 
       - section: "**Recorded sessions**"
         contents:
-          - href: "01-getting-started-R.qmd"
+          - href: "01-record-getting-started-r.qmd"
             text: "Recorded: getting started with R"
       
 format:
