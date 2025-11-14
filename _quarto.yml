@@ -34,6 +34,11 @@ website:
             text: "Understanding the grammar of graphics"
           - href: ""
             text: "Building publishable plot"
+
+      - section: "**Recorded sessions**"
+        contents:
+          - href: "01-getting-started-R.qmd"
+            text: "Recorded: getting started with R"
       
 format:
   html:

@@ -4,7 +4,6 @@ title: ""
 
 ![](figures/getting-started-with-R.png)
 
-
 **Topic outline:**
 
 1.  R objects
