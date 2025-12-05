@@ -2,7 +2,7 @@
 title: ""
 ---
 
-![](figures/getting-started-with-R.png)
+![](figures/grammar-graphics-1.png)
 
 **Recorded session: 05 December 2025**
 
