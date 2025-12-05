@@ -38,7 +38,9 @@ website:
       - section: "**Recorded sessions**"
         contents:
           - href: "01-record-getting-started-r.qmd"
-            text: "Recorded: getting started with R"
+            text: "Getting started with R"
+          - href: "02-record-ggplot-r.qmd"
+            text: "Understanding the grammar of graphics"
       
 format:
   html:
